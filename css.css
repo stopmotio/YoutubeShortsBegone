@@ -1,0 +1,47 @@
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align:center;
+  color:white;
+}
+body {
+  background-color:black;
+}
+
+input {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+}
+
+button {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1%;
+  background-color:navy;
+  border:0;
+  color:white;
+  width:80%;
+}
+
+button:hover {
+  background-color:red;
+  transition:1s;
+  color:black;
+}
+
+button:focus {
+  background-color:magenta;
+  transition:0.5s;
+  color:black;
+}
+
+a {
+}
+p {
+  /*text-align only works with p for some reason. May be Firefox specific bug.*/
+  text-align:center;
+  color:white;
+  font-family:sans-serif;
+}
