@@ -7,4 +7,6 @@ function FixTheLink() {
   console.log('Parsing completed with a final URL of: ' + workvar);
   document.getElementById('output').href = workvar;
   document.getElementById('output').innerHTML = workvar;
+
+  //and somehow this is still majority HTML according to GitHub/Linguist. Thanks!
 }
