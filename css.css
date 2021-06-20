@@ -5,24 +5,38 @@ h1 {
 }
 body {
   background-color:black;
+  margin:0;
+  padding:0;
+}
+.flexdiv {
+  display: flex;
+  flex-flow:column wrap;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 input {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:80%;
+  padding:1%;
+  width:98%;
+  margin-bottom:1%;
 }
 
 button {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  padding:1%;
-  background-color:navy;
+  padding: min(5%, 20px);
+  background-color:cyan;
   border:0;
-  color:white;
-  width:80%;
+  border-radius:50px;
+  width: min(400px, 50%);
+  font-family:Verdana, sans-serif;
 }
 
 button:hover {
@@ -43,5 +57,5 @@ p {
   /*text-align only works with p for some reason. May be Firefox specific bug.*/
   text-align:center;
   color:white;
-  font-family:sans-serif;
+  font-family:Verdana, sans-serif;
 }
